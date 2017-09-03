@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="test/bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="MIDL Test Suite">
+            <directory>./test/midl/</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./midl/</directory>
+        </whitelist>
+    </filter>
+
+    <php>
+        <ini name="date.timezone" value="UTC" />
+<!--         <var name="test_user_username" value="test" /> -->
+<!--         <var name="test_user_password" value="123456" /> -->
+    </php>
+</phpunit>

@@ -1,0 +1,11 @@
+/node_modules
+/vendor
+/.idea
+/content/config/config.php
+/content/logs/*.log
+/assets/upload/*/
+/assets/min/*
+.env
+
+.phpstorm.meta.php
+npm-debug.log

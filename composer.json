@@ -1,0 +1,13 @@
+{
+  "require-dev": {
+    "phpunit/phpunit": "^5.7",
+    "mikey179/vfsStream": "^1.6"
+  },
+  "require": {
+    "mrclay/minify": "^2.3",
+    "patchwork/jsqueeze": "^2.0"
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit --colors=always"
+  }
+}
