@@ -1,8 +1,6 @@
 ## MIDL Framework
 
 **Reasons why I've developed MIDL micro framework:**
-- So far I have learned a lot from open source community and I would like to share my experience
-	with community as a thank. Hope someone will find this micro framework helpful.
 - I don't want to spend too many times to learn a new framework 
 which has totally different coding style to develop a simple website. For example most of them have
 their own syntax/concepts for ORM, template engines etc. I just want to use pure PHP.
